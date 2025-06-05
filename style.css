@@ -1,0 +1,154 @@
+body{
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.header {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    padding: 10px;
+    padding-left: 50px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo { /*put it inline with links*/
+    font-weight: 900;
+    font-size: 24px;
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.links {
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.awesome {
+    color: #e5e7eb;
+    background-color: #1f2937;
+    font-size: 18px;
+    padding: 40px;
+    display: flex;
+    
+}
+
+.placeholder {
+    background-color: grey;
+    flex-shrink: 0;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.mid-section{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.pics {
+    display: flex;
+    gap: 30px;
+    color: #1f2937;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+img {
+    height: 250px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-width: 5px;
+    border-radius: 8px;
+}
+
+button{
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.lower-section{
+    padding: 30px;
+    font-size: 30px;
+    color: #1f2937;
+    background-color: #e5e7eb;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.quote{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#author {
+    font-weight: 700 ;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bottom-section{
+    display: flex;
+    justify-content: center;
+}
+
+.action{
+    background-color: #3882F6;
+    color: white;
+    width: 75%;
+    padding: 10px;
+    margin: 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.button-1{
+    height: 10%;
+    width: 25%;
+    border-style: solid;
+    border-color: #3882F6;
+}
+
+.button-2{
+    height: 40%;
+    width: 18%;
+    border-color: white;
+    border-style: solid;
+}
+
+.footer{
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
